@@ -1,0 +1,24 @@
+a<-c(60:85)
+a
+a[12]
+a[20]
+a[c(5,25)]
+a[c(4,8,12,16,20,24)]
+a[c(-18)]
+a[c(-2,-15,-17)]
+b<-1:(6-1)
+b
+c<-1:6-1
+c
+X<-c(33:47)
+X
+Y<-c(seq(115,157, by=3))
+Y
+Z<-c(seq(10,length=15,by=-8.5))
+Z
+new_frame<-cbind(X,Y,Z)
+new_frame[,1]
+new_frame[6:10,2]
+new_frame[11,]
+new_frame[4:8,1:3]
+new_frame[,]

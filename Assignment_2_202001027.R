@@ -1,0 +1,8 @@
+data <- read.csv("DataSet2.csv")
+View(DataSet2)
+a<-c(DataSet2$time,DataSet2$status,DataSet2$age,DataSet2$thickness)
+mean(a)
+var(a)
+library(moments)
+skewness(a)
+kurtosis(a)
